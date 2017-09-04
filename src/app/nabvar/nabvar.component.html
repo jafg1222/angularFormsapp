@@ -1,0 +1,20 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Bookmarks</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a [routerLink]="['/home']">Inicio</a></li>
+            <li routerLinkActive="active">
+                <a [routerLink]="['/forms']">Forms</a>
+            </li>
+            <li routerLinkActive="active">
+                <a [routerLink]="['/search']">Search</a>
+            </li>
+            <li routerLinkActive="active">
+                <a [routerLink]="['/forms-reactive']">Forms-Reactive</a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
